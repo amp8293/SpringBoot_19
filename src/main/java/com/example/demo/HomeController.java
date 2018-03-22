@@ -30,7 +30,7 @@ public class HomeController {
     }
 
     @RequestMapping("/admin")
-    public String login() {
+    public String admin() {
         return "admin";
     }
 
